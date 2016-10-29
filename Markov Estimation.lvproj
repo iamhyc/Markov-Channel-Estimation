@@ -13,10 +13,9 @@
 		<Item Name="Delay over UDP" Type="Folder" URL="../Delay over UDP">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Inteference Power" Type="Folder">
-			<Item Name="USRP Sampling.vi" Type="VI" URL="../Inteference Power/USRP Sampling.vi"/>
+		<Item Name="Inteference Power" Type="Folder" URL="../Inteference Power">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="OFDM Tx Rx" Type="Folder"/>
 		<Item Name="Random Data Generator.vi" Type="VI" URL="../Random Data Generator.vi"/>
 		<Item Name="subQuantization.vi" Type="VI" URL="../subQuantization.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
