@@ -16,8 +16,11 @@
 		<Item Name="Inteference Power" Type="Folder" URL="../Inteference Power">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Main-Markov Estimation.vi" Type="VI" URL="../Main-Markov Estimation.vi"/>
+		<Item Name="Main-Control Pannel.vi" Type="VI" URL="../Main-Control Pannel.vi"/>
+		<Item Name="Markov Estimation.vi" Type="VI" URL="../Markov Estimation.vi"/>
 		<Item Name="Random Data Generator.vi" Type="VI" URL="../Random Data Generator.vi"/>
+		<Item Name="subLocateStatus.vi" Type="VI" URL="../subLocateStatus.vi"/>
+		<Item Name="subNextStatus.vi" Type="VI" URL="../subNextStatus.vi"/>
 		<Item Name="subQuantization.vi" Type="VI" URL="../subQuantization.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
