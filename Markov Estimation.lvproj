@@ -16,6 +16,7 @@
 		<Item Name="Inteference Power" Type="Folder" URL="../Inteference Power">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Main-Markov Estimation.vi" Type="VI" URL="../Main-Markov Estimation.vi"/>
 		<Item Name="Random Data Generator.vi" Type="VI" URL="../Random Data Generator.vi"/>
 		<Item Name="subQuantization.vi" Type="VI" URL="../subQuantization.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
