@@ -18,14 +18,11 @@
 		</Item>
 		<Item Name="Main-Control Pannel.vi" Type="VI" URL="../Main-Control Pannel.vi"/>
 		<Item Name="Markov Estimation.vi" Type="VI" URL="../Markov Estimation.vi"/>
-		<Item Name="Random Data Generator.vi" Type="VI" URL="../Random Data Generator.vi"/>
-		<Item Name="subLocateStatus.vi" Type="VI" URL="../subLocateStatus.vi"/>
-		<Item Name="subNextStatus.vi" Type="VI" URL="../subNextStatus.vi"/>
-		<Item Name="subQuantization.vi" Type="VI" URL="../subQuantization.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
+				<Item Name="niUSRP Abort.vi" Type="VI" URL="/&lt;instrlib&gt;/niUSRP/niUSRP Abort.vi"/>
 				<Item Name="niUSRP Close Session.vi" Type="VI" URL="/&lt;instrlib&gt;/niUSRP/niUSRP Close Session.vi"/>
-				<Item Name="niUSRP Configure Signal.vi" Type="VI" URL="/&lt;instrlib&gt;/niUSRP/niUSRP Configure Signal.vi"/>
+				<Item Name="niUSRP Commit.vi" Type="VI" URL="/&lt;instrlib&gt;/niUSRP/niUSRP Commit.vi"/>
 				<Item Name="niUSRP Fetch Rx Data (2D CDB).vi" Type="VI" URL="/&lt;instrlib&gt;/niUSRP/niUSRP Fetch Rx Data (2D CDB).vi"/>
 				<Item Name="niUSRP Fetch Rx Data (2D I16).vi" Type="VI" URL="/&lt;instrlib&gt;/niUSRP/niUSRP Fetch Rx Data (2D I16).vi"/>
 				<Item Name="niUSRP Fetch Rx Data (CDB Cluster).vi" Type="VI" URL="/&lt;instrlib&gt;/niUSRP/niUSRP Fetch Rx Data (CDB Cluster).vi"/>
@@ -41,6 +38,10 @@
 			<Item Name="niusrp.dll" Type="Document" URL="niusrp.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Random Data Generator.vi" Type="VI" URL="../Random Data Generator.vi"/>
+			<Item Name="subLocateStatus.vi" Type="VI" URL="../subLocateStatus.vi"/>
+			<Item Name="subNextStatus.vi" Type="VI" URL="../subNextStatus.vi"/>
+			<Item Name="subQuantization.vi" Type="VI" URL="../subQuantization.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
